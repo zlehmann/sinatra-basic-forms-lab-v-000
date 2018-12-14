@@ -46,7 +46,7 @@ describe App do
 
       fill_in(:name, :with => "Butch")
       fill_in(:breed, :with => "Mastiff")
-      fill_in(:age, :with => "6")
+      fill_in(:age, :with => "6 months")
 
       #the below css will match any element (input or button)
       #with a type attribute set to submit
@@ -72,7 +72,7 @@ describe App do
 
       fill_in(:name, :with => "Byron")
       fill_in(:breed, :with => "Poodle")
-      fill_in(:age, :with => "9")
+      fill_in(:age, :with => "9 months")
 
       #the below css will match any element (input or button)
       #with a type attribute set to submit
